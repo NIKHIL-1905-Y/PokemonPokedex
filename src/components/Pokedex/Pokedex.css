@@ -1,0 +1,34 @@
+/* .pokedex-wrapper{
+    height: 100vh;
+    width: 100%;
+    background-image: url(D:\PokemonPokedex\src\assets\images\pokemonH.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+
+    position: absolute;
+    background-attachment: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+} */
+/* 
+@media screen and (max-width:768px) {
+
+    .pokedex-wrapper{
+        background-position: center;
+    }
+    
+} */
+.pokedex-wrapper{
+    height: 100vh;
+    width: 100%;
+}
+.pokedex-header{
+    height:20vh;
+    background-image: url(D:\PokemonPokedex\src\assets\images\pokemonlog.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+

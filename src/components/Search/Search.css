@@ -1,0 +1,123 @@
+.search-container{
+    width: 100%;
+    height: 25vh;
+    background-color:#285054;
+    display: flex;
+   
+   
+}
+
+.search-content{
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    
+    /* justify-content: space-between; */
+}
+
+.search-btn{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    
+   
+}
+.search-title{
+    color:#FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.search-icon{
+    width: 3.5rem;
+    height: 2.5rem;
+    padding: 0.6rem;
+    background-color:greenyellow;
+    border-radius: 8px;
+}
+
+
+
+.search-wrapper{
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+      gap: 1rem;
+}
+
+#pokemon-name-search{
+           width: 100%;
+           height: 100%;
+           border: 3px solid blue;
+           border-radius: 8px;
+
+}
+.search-para{
+     color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+.search-instruction{
+    background-color: #4DAD5B;
+    width: 50%;
+    height: 4rem;
+    padding: 0.9rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .search-container{
+        height: 35vh;
+    }
+    .search-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.1rem;
+    }
+
+    .search-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .search-icon {
+        width: 3rem;
+        height: 2rem;
+        padding: 0.4rem;
+    }
+
+    .search-wrapper {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #pokemon-name-search {
+        width: 100%;
+        height: 100%;
+        border: 2px solid gray;
+        border-radius: 8px;
+        font-size: 0.9rem;
+    }
+    
+    .search-para {
+        font-size: 0.9rem;
+    }
+
+    .search-instruction {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
