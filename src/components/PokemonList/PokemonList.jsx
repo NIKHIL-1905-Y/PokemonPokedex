@@ -58,7 +58,7 @@ const PokemonList = () => {
         <div className='pokemon-wrapper'>
          {
             (isLoading)?'Loading .....':
-            pokemonlist.map((p) => <Pokemon key={p.id} name={p.name} image={p.image} />)
+            pokemonlist.map((p) => <Pokemon key={p.id} name={p.name} image={p.image} id={p.id} />)
          }
         </div>
      <div className="controls">

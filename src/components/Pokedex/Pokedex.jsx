@@ -10,9 +10,7 @@ const Pokedex = () => {
   return (
     <div className="pokedex-wrapper">
       
-         <div className="pokedex-header">
-              
-         </div>
+        
          <div className="search-comp">
              <Search  />
           <PokemonList/>
