@@ -26,7 +26,7 @@
 }
 .pokedex-header{
     height:20vh;
-    background-image: url(D:\PokemonPokedex\src\assets\images\pokemonlog.png);
+    background-image: url(../../assets/images/pokemonlog.png);
     background-repeat: no-repeat;
     background-position: center;
     
