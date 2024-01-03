@@ -36,7 +36,7 @@ const PokemonDetails = () => {
        <div className="poke-details-height">Height is {pokemon.height} units </div>
        <div className="poke-details-weight">Weight is {pokemon.weight} units</div>
         <div className="pokemon-types">
-        c {pokemon.types && pokemon.types.map((t) => <div key={t} className="type"> {t} </div>)}
+         {pokemon.types && pokemon.types.map((t) => <div key={t} className="type"> {t} </div>)}
         </div>
     </div>
     <div className="back-home">
