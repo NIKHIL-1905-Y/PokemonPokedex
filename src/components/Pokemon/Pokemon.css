@@ -111,7 +111,7 @@
 @media screen and (max-width:768px) {
    .pokemon{
     height: 45vh;
-       flex-basis: 40%;
+       flex-basis: 80%;
    }
    .pokemon-image{
        width: 65%;
