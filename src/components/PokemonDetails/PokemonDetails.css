@@ -89,17 +89,17 @@
 @media screen and (max-width:768px) {
      
     .poke-details-wrapper{
-        height: 70vh;
-        width: 70vw;
+        height: 60vh;
+        width: 90vw;
     }
     .poke-details-image{
           height: 50%;
           width: 70%;
     }
     .back-home{
-        width: 15vw;
+        width: 20vw;
     }
     .type{
-        width: 14vw;
+        width: 25vw;
     }
 }
