@@ -1,7 +1,12 @@
+import { useState } from "react";
 import "./Search.css"
 import { FaSearch } from "react-icons/fa";
+import useDebounce from "../../hooks/useDebounce";
 
-const Search = () => {
+const Search = ({updateSearchTerm}) => {
+     
+  const debouncedCallback = useDebounce((e) => updateSearchTerm(e.target.value))
+  
   return (
 
     <div className="search-container" >
@@ -13,6 +18,7 @@ const Search = () => {
                       id="pokemon-name-search" 
                       type="text"
                       placeholder="Pokemon name ..."
+                      onChange={debouncedCallback}
                         />
                         <div className="search-icon">
                         <FaSearch style={{color:'white' ,fontSize:'1.5rem'}} />

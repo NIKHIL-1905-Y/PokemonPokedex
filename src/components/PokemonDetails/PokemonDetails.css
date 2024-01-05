@@ -5,7 +5,7 @@
      gap: 2vh;
 }
 .poke-details-wrapper{
-    height: 70vh;
+    height: 65vh;
     width: 40vw;
     /* background-color: red; */
     margin: 0 auto;
@@ -71,13 +71,21 @@
 }
 .back-home{
     height: 6vh;
-    width: 15vw;
-    background-color: aqua;
+    width: 10vw;
+    margin-top: 1rem;
+    box-shadow: 2px 4px 4px;
     border-radius: 10px;
     padding-top: 0.9vh;
     padding-left: 2.5vw;
+    
+    background-color:greenyellow;
+    transition: all ease 0.5s;
 }
+.back-home:hover{
+    transform: scale(1.1);
+    background-color:rgba(172, 255, 47, 0.692);
 
+}
 @media screen and (max-width:768px) {
      
     .poke-details-wrapper{
@@ -88,5 +96,10 @@
           height: 50%;
           width: 70%;
     }
-    
+    .back-home{
+        width: 15vw;
+    }
+    .type{
+        width: 14vw;
+    }
 }
