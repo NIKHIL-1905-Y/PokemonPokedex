@@ -66,10 +66,14 @@
     /* background-color: red; */
     box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.5s all ease;
     
      
     overflow: hidden;
+}
+.pokemon:hover{
+    transform: scale(1.08);
+    height: 48vh;
 }
 .pokemon-name{
     margin-left: 5vw;

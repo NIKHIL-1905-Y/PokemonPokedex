@@ -1,8 +1,7 @@
 .pokemon-list-wrapper{
     margin: 0.2rem auto;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
     
     /* background-color: aqua; */
 }
